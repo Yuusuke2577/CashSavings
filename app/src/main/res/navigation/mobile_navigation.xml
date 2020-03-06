@@ -15,7 +15,7 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.example.cashsavings.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/entry" />
+        tools:layout="@layout/fragment_entry" />
 
     <fragment
         android:id="@+id/navigation_notifications"
