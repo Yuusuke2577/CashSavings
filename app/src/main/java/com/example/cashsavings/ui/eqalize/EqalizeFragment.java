@@ -22,8 +22,8 @@ public class EqalizeFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
         eqalizeViewModel =
                 ViewModelProviders.of(this).get(EqalizeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_create, container, false);
-        final TextView textView = root.findViewById(R.id.text_dashboard);
+        View root = inflater.inflate(R.layout.fragment_eqalize, container, false);
+        final TextView textView = root.findViewById(R.id.text_eqalize);
         eqalizeViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {

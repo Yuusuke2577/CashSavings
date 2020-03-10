@@ -10,7 +10,7 @@ public class EqalizeViewModel extends ViewModel {
 
     public EqalizeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is eqalize fragment");
     }
 
     public LiveData<String> getText() {

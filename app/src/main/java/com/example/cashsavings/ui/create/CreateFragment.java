@@ -16,15 +16,15 @@ import com.example.cashsavings.R;
 
 public class CreateFragment extends Fragment {
 
-    private CreateViewModel homeViewModel;
+    private CreateViewModel createViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
+        createViewModel =
                 ViewModelProviders.of(this).get(CreateViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
-        final TextView textView = root.findViewById(R.id.text_home);
-        homeViewModel.getText().observe(this, new Observer<String>() {
+        View root = inflater.inflate(R.layout.fragment_create, container, false);
+        final TextView textView = root.findViewById(R.id.text_create);
+        createViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

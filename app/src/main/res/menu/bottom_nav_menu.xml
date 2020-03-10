@@ -4,22 +4,22 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/title_home" />
+        android:title="トップ" />
 
     <item
         android:id="@+id/navigation_create"
         android:icon="@drawable/ic_create_black_24dp"
-        android:title="create" />
+        android:title="入力" />
 
     <item
         android:id="@+id/navigation_eqalize"
         android:icon="@drawable/ic_equalizer_black_24dp"
-        android:title="equalizer" />
+        android:title="グラフ" />
 
     <item
         android:id="@+id/navigation_camera"
         android:icon="@drawable/ic_camera_alt_black_24dp"
-        android:title="camera" />
+        android:title="カメラ" />
 
 
 
